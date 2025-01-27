@@ -1,0 +1,126 @@
+
+
+.navbar .blog-link {
+    margin-left: 20px;
+    line-height: 1.5;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    margin-top: 0;
+}
+
+body {
+    padding-top: 97px;
+}
+
+.gallery-container {
+    background-color: #002953;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.gallery-content {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+    width: 100%;
+}
+
+.gallery-images {
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+.gallery-images::-webkit-scrollbar {
+    display: none;
+}
+
+.gallery-images img {
+    flex: 0 0 auto;
+    width: calc(34% - 180px);
+    height: 70px;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-images img:hover {
+    transform: scale(1.05);
+}
+
+.arrow-btn {
+    border: none;
+    background: none;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    padding: 5px 15px;
+}
+
+.arrow-btn:hover {
+    transform: scale(1.1);
+}
+
+.arrow-btn:first-child {
+    margin-right: -20px;
+}
+
+.arrow-btn:last-child {
+    margin-left: -20px;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+.parallax-image.scrolling-down {
+    transform: translateY(20px);
+}
+
+.parallax-image.scrolling-up {
+    transform: translateY(-20px);
+}
+
+.content-aligned {
+    display: flex;
+    gap: 20px;
+    align-items: start;
+}
+
+.aligned-image {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card-custom {
+    flex-grow: 1;
+    max-width: 50%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.card-subtitle {
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.card-text {
+    font-size: 1rem;
+    line-height: 1.5;
+}
